@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 1200px; */
+    /* max-width means occupy only 1200px never beyond that,
+    and if screen is smaller than 1200px take-up 100% of the available width.  */
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: lightgreen;
+    border: 5px solid darkred;
+    padding: 20px 25px;
+}
+
+.article:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.article img {
+    height: 200px;
+    border-left: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+/* Even */
+ .box:nth-child(2n) {
+      background-color: green;
+}
+
+/* Odd */
+.box:nth-child(2n+1) {
+    background-color: blue;
+}

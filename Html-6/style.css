@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Global styles */
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.heading-main {
+    font-size: 40px;
+    color: cornflowerblue;
+    margin: 10px 0;
+    font-weight: 400px;
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+}
+
+.Gallery {
+    margin: 30px 0;
+    background-color: seagreen;
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+}
+
+.col img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.col p {
+     color: aliceblue;
+     margin: 10px 0;
+}
+
+.btn {
+    border: none;
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 1s;
+}
+
+/* pseudo-classes */
+/* By using pseudo classes we can style an element under special state. */
+
+/* when mouse is hovered on a button */
+.btn:hover {
+    background-color: aqua;
+}
+
+.btn:active {
+    background-color: grey;
+}

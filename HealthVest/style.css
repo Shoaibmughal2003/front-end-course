@@ -1,0 +1,370 @@
+:root {
+    --font-primary:"Roboto", sans-serif;
+    --font-secondary:"Montserrat", sans-serif;
+    --color-white-1:white;
+    --color-gray-1: gray;
+    --color-green: var(#36c940);
+    --color-black-1: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 rem = root font-size set by browser 16px */
+/* rem = relative unit. and is relative to root font-size.
+px: absolute unit */
+
+html {
+    font-size: 62.5%;
+    /* 1 rem now equal 10px*/
+}
+body {
+    font-size: 16px;
+    font-family: var(--font-primary);
+    color: var(--color-gray-1);
+    background-color: var(--color-white-1);   
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("https://preview.colorlib.com/theme/healthvest/images/bg_1.jpg");
+    background-size: cover;
+    background-position: right;
+    padding: 4rem 5%;
+    position: relative;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.green-logo {
+    color:#36c940;
+}
+
+.white-logo {
+    color:white;
+}
+
+.nav-list {
+    list-style:none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-weight: 600;
+}
+
+.list-item:nth-of-type(1){
+    color: #fff;
+}
+
+.header-text-box{
+    position: absolute;
+    width:max-content;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading-main{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--color-white-1);
+}
+
+.heading-second{
+    font-family: var(--font-secondary);
+    color: var(--color-white-1);
+    font-size: 6rem;
+}
+
+.header-btn-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn{
+    border: none;
+    padding: 1rem 3rem;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-green{
+    color: #fff;
+    background-color: #36c940;
+}
+
+.header-features{
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    display: flex;
+    padding: 1rem 4rem;
+    gap: 1rem;
+}
+
+.header-feature{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 5rem 4rem;
+    transition: all 0.3s;
+}
+
+.header-feature:hover {
+    background-color: #36c940;
+}
+
+.header-feature:hover > * {
+    color: #fff;
+}
+
+.header-feature i {
+    color: #36c940;
+    font-size: 4rem;
+}
+
+.feature-heading {
+    color: var(--color-black-1);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.section-about {
+  margin-top: 30vh;
+  padding: 2rem 6rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.left-image-box {
+  height: 100vh;
+  width: 150%;
+  background-image: url("https://preview.colorlib.com/theme/healthvest/images/about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.experiance-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 2rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.experiance-box i {
+    color: #36c940;
+    font-size: 5rem;
+}
+
+.experiance-text-box {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.experiance-text-box span{
+    font-size: 2rem;
+}
+
+.right-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.heading-green{
+ color: #36c940;
+}
+
+.heading-black-big{
+   color: rgba(0, 0, 0, 0.8);
+   font-family: var(--font-secondary);
+   font-size: 6rem;
+   font-weight: 400;
+}
+
+.heading-third{
+   color: rgba(0, 0, 0, 0.8);
+   font-family: var(--font-secondary);
+   font-size: 3rem;
+   font-weight: 400;
+}
+
+.about-section-text{
+  line-height: 1.8;
+}
+
+.helpbox{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 30rem;
+}
+
+.helpbox-list{
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+   list-style: none;
+   color: rgba(0, 0, 0, 0.8);
+   font-weight: 600;
+}
+
+.help-item i{
+    color: #36c940;
+}
+
+.section-services {
+    padding: 2rem 6rem;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+.services-container {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+}
+
+.service-box {
+    background-color: #fff;
+    box-shadow: 1rem 1rem rem rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+
+.service-box:hover {
+      background-color: #36c940; 
+}
+
+.service-box:hover > *,
+.service-box:hover .heading-third {
+    color: #fff;
+}
+
+.service-box:hover .service-link {
+    background-color: #fff;
+    color: #36c940;
+}
+
+.service-box:nth-of-type(1) .services-img-box {
+     height: 30vh;
+     background-image: url("https://preview.colorlib.com/theme/healthvest/images/services-4.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 2rem;
+}
+
+
+.service-box:nth-of-type(2) .services-img-box {
+     height: 30vh;
+     background-image: url("https://preview.colorlib.com/theme/healthvest/images/services-5.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 2rem;
+}
+
+
+.service-box:nth-of-type(3) .services-img-box {
+     height: 30vh;
+     background-image: url("https://preview.colorlib.com/theme/healthvest/images/services-6.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 2rem;
+}
+
+.services-text-box {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.service-link {
+      text-decoration: none;
+      color: #36c940;
+      font-weight: 600;
+      text-transform: uppercase;
+      border: 1rem solid var(#36c940);
+      padding: 5rem;
+      font-size: 1.2rem;
+}
+
+/* Media quries: Making websie respomsive. */
+/* Desktop first: */
+/* Apply this media qury device width is 1050px 0r less. */
+/* 1050 - 0px*/
+
+@media (max-width: 1050px) {
+     .heading-second {
+        font-size: 4rem;
+     }
+}
+
+.header-features {
+    padding: 1rem 3rem;
+}
+
+.header-feature {
+    padding: 2rem 2.5rem;
+}
+
+.left-image-box {
+    height: 50vh;
+}
+
+.section-services {
+    padding: 2rem 4rem;
+}
+
+.services-img-box {
+    height: 20vh;
+}
+
+.heading-black-big {
+    font-size: 4rem;
+}
+
+.heading-third {
+    font-size: 2rem;
+}
+
+.experiance-box {
+    
+}

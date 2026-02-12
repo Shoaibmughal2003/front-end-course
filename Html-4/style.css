@@ -1,0 +1,35 @@
+h1{
+   background-color: aqua;
+   text-align: center;
+}
+
+.heading{
+    background-color: brown;
+    text-align: center;
+}
+
+
+.paragraph-main{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.img-main{
+     text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+/* Button styling */
+.my-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

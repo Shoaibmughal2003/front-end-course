@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Block elements: Take up entire line, height, width, margin, padding, and border applie in all direction */
+/* inline elements: takes up width required by thier content, sit next to each other, does not care about
+ height and width, margin padding applies to left & right only.                                             */
+/* inline-block:behaves much like both block and inline, set next to each other height,
+width, margin, padding, applie to all direction */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    /* display:inline; */
+    display: inline-block;
+    /* appling radius */
+    border: 2px solid black;
+    /* border-radius: 8px; */
+    border-radius: 5px;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    background-color: crimson;
+
+}
+
+.container{
+    background-color: lightcoral;
+}
+
+.form-container{
+    margin: 30px;
+    width: min-content;
+    background-color: aqua;
+    padding: 20px 40px;
+}
+
+.form-heading{
+     text-align: center;
+     color: crimson;
+}
+
+form {
+    text-align: center;
+}
+
+/* select form tag and inside that select all input tags */
+
+form input{
+    margin: 20px;
+    padding: 8px 15px;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    border: none;
+}
+
+form select{
+    padding: 8px 12px;
+    background-color: salmon;
+    color: aliceblue;
+}
+
+.btn-submit{
+    background-color: chocolate;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: wheat;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+}

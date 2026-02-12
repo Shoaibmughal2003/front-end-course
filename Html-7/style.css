@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 30px;
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.box-red {
+    background-color: crimson;
+}

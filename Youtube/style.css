@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    height: 50px;
+}
+
+.container {
+     display: flex; 
+     align-items: center;
+     gap: 120px;
+}
+
+.container-icon {
+    gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+    display: flex;
+    padding: 20px;
+    font-size: 22px;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+
+.icon i:hover {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon-youtube {
+    color: red;
+    font-weight: 300;
+}
+
+.icon-youtube b {
+   color: black;
+}
+
+.icon-youtube sup {
+    color: gray;
+    font-size: 10px;
+    
+}
+
+.search-bar input {
+      padding: 10px;
+      border-radius: 50px;
+      padding-left: 300px;
+      position: relative;
+}
+
+.search-bar i:hover {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.search-bar i {
+    position: absolute;
+    font-size: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mic {
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mic:hover {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.creat {
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.creat:hover {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.img img{
+    padding: 0px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 60px;
+    padding-right: 0px;
+    padding-top: 20px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.list-item-1 {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list-item-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-item {
+    background-color: #f8f8f8;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.menu i:hover {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.menu i {
+    margin-left: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.home-1 {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+   
+}
+
+.display iframe{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vh;
+    margin-left: 100px;
+}
