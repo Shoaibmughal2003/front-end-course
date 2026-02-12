@@ -11,15 +11,15 @@
 }
 
 .container {
-     display: flex; 
-     align-items: center;
-     gap: 120px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
 }
 
 .container-icon {
     gap: 20px;
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
@@ -28,7 +28,7 @@
     font-size: 22px;
     gap: 10px;
     cursor: pointer;
-    
+
 }
 
 .icon i:hover {
@@ -43,20 +43,20 @@
 }
 
 .icon-youtube b {
-   color: black;
+    color: black;
 }
 
 .icon-youtube sup {
     color: gray;
     font-size: 10px;
-    
+
 }
 
 .search-bar input {
-      padding: 10px;
-      border-radius: 50px;
-      padding-left: 300px;
-      position: relative;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 300px;
+    position: relative;
 }
 
 .search-bar i:hover {
@@ -97,7 +97,7 @@
     border-radius: 10px;
 }
 
-.img img{
+.img img {
     padding: 0px;
     border-radius: 50px;
     height: 50px;
@@ -163,10 +163,10 @@
     font-size: 10px;
     padding-left: 10px;
     padding-top: 5px;
-   
+
 }
 
-.display iframe{
+.display iframe {
     display: flex;
     flex-direction: column;
     height: 40vh;
